@@ -1,0 +1,14 @@
+LA LUNA AGENT SOURCE-AVAILABLE LICENSE
+Version 1.0 — 26 September 2026
+
+Copyright (c) 2026 Kris Lee / La Luna Ops. All rights reserved.
+
+Permission is granted to view, download, compile, install, execute, and modify this software solely for connecting, operating, developing, testing, or maintaining La Luna Ops and La Luna Ops-authorized deployments.
+
+Internal copies and modifications are permitted only as reasonably necessary for those purposes.
+
+Without prior written permission from the copyright holder, you may not: (1) use this software or derivatives with a monitoring, observability, infrastructure-management, hosting-management, or control-plane product other than La Luna Ops; (2) redistribute, sublicense, sell, rent, lease, commercialize, rebrand, or provide this software or derivatives as a standalone product or service; (3) remove copyright, license, trademark, attribution, or proprietary notices; (4) represent a modified version as an official La Luna Ops release; (5) use La Luna Ops names or marks to endorse an unrelated product; or (6) circumvent authentication, enrollment, authorization, or security controls intended to bind the agent to La Luna Ops.
+
+THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDER SHALL NOT BE LIABLE FOR CLAIMS, DAMAGES, OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE.
+
+This is a proprietary source-available license and is not an OSI-approved open-source license.
