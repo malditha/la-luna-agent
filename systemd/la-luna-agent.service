@@ -10,9 +10,14 @@ ExecStart=/usr/bin/python3 /opt/la-luna-agent/la-luna-agent.py
 Restart=always
 RestartSec=5
 NoNewPrivileges=true
-PrivateTmp=true
 ProtectSystem=strict
 ProtectHome=true
+PrivateTmp=true
+StateDirectory=la-luna-agent
+StateDirectoryMode=0700
 ReadWritePaths=/var/lib/la-luna-agent
+ProtectKernelTunables=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
 [Install]
 WantedBy=multi-user.target
