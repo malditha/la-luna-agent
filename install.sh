@@ -4,7 +4,7 @@ BASE="https://raw.githubusercontent.com/malditha/la-luna-agent/main"
 if [ "$(id -u)" -ne 0 ];then echo "Run installer with sudo.";exit 1;fi
 command -v curl >/dev/null||{ echo "curl is required";exit 1; }
 command -v python3 >/dev/null||{ echo "python3 is required";exit 1; }
-ask(){ local n="$1" p="$2" s="$3" v="${!n:-}";if [ -z "$v" ];then if [ "$s" = yes ];then read -r -s -p "$p: " v;echo;else read -r -p "$p: " v;fi;fi;printf -v "$n" '%s' "$v"; }
+ask(){ local n="$1" p="$2" s="$3";local v="${!n:-}";if [ -z "$v" ];then if [ "$s" = yes ];then read -r -s -p "$p: " v;echo;else read -r -p "$p: " v;fi;fi;printf -v "$n" '%s' "$v"; }
 ask LA_LUNA_URL "La Luna Ops URL (https://...)" no
 ask LA_LUNA_AGENT_ID "Agent ID" no
 ask LA_LUNA_AGENT_TOKEN "Enrollment credential" yes
